@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid;
+            background-color: bisque;
+            height: 500vw;
+            width: 500vh;
+        }
+        .box {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name: rightside;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-delay:1s;
+        }
+
+        @keyframes rightside {
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                right: 1200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
