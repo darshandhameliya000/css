@@ -12,27 +12,34 @@
             height: 500vw;
             width: 500vh;
         }
+
         .box {
             background-color: red;
             height: 100px;
             width: 100px;
             position: relative;
             animation-name: rightside;
-            animation-duration: 5s;
-            animation-iteration-count: 1;
-            animation-delay:1s;
-            /* animation-fill-mode: forwards; */
-            animation-fill-mode:backwards;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-delay: 1s;
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction:reverse; */
+            animation-direction: normal;
+            /* animation-fill-mode:backwards; */
+            animation-fill-mode: forwards;
         }
 
         @keyframes rightside {
-            from{
-                top:0;
-                left:0;
+            from {
+
+                top: 0;
+                left: 0;
             }
-            to{
-                top:0;
-                right: 1200px;
+
+            to {
+                top: 0;
+                left: 300px;
             }
         }
     </style>
