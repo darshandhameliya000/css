@@ -9,8 +9,8 @@
         .container {
             border: 2px solid;
             background-color: bisque;
-            height: 500vw;
-            width: 500vh;
+            height: 40vw;
+            width: 150vh;
         }
 
         .box {
@@ -20,14 +20,14 @@
             position: relative;
             animation-name: rightside;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: 1;
             animation-delay: 1s;
-            /* animation-direction: alternate; */
+            animation-direction: alternate;
             /* animation-direction: alternate-reverse; */
             /* animation-direction:reverse; */
-            animation-direction: normal;
-            /* animation-fill-mode:backwards; */
-            animation-fill-mode: forwards;
+            /* animation-direction: normal; */
+            animation-fill-mode:backwards;
+            /* animation-fill-mode: forwards; */
         }
 
         @keyframes rightside {
@@ -38,7 +38,7 @@
             }
 
             to {
-                top: 0;
+                top: 50%;
                 left: 300px;
             }
         }
