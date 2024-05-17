@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency | MegaOne HTML5</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-image: linear-gradient(rgb(157, 194, 220), rgb(79, 20, 230));
+            color: white;
+
+            display: flex;
+            justify-content: space-between;
+            height: 8svh;
+            align-items: center;
+            
+        }
+
+        .logo {
+            margin-left: 10px;
+            text-shadow: 5px 5px 30px black;
+        }
+
+        ul {
+            display: flex;
+            gap: 2vw;
+            list-style: none;
+        }
+
+        ul li {
+            padding: 10px;
+            margin-right: 20px;
+            text-shadow: 5px 5px 30px black;
+        }
+
+        .logo:hover,
+        ul li:hover {
+            color: black;
+        }
+
+
+        .push {
+            display: flex;
+            transition: all 2s linear;
+        }
+
+        .push:hover {
+            transform: translate(90px, 0px);
+        }
+
+        .li {
+            border: 2px solid;
+            padding: 5px;
+            border-radius: 20px;
+
+        }
+
+        .li:hover {
+            background-image: linear-gradient(red, pink);
+            background-color: white;
+            color: black;
+        }
+
+        .first-class {
+
+            width: 98.7vw;
+            height: 50vh;
+            background-image: linear-gradient(to right, rgb(133, 133, 237), rgb(14, 107, 189));
+        }
+
+        .inside-class {
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .pre1 {
+            margin-left: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 5px 5px 40px black;
+        }
+
+        .btn1 {
+            background-color: #1483f9;
+            border-radius: 10px;
+        }
+
+        .second-class {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 90px;
+            margin-top: 50px;
+            text-shadow: 5px 5px 30px black;
+
+        }
+
+        .b1 {
+            border-radius: 20px;
+            padding: 5px 10px;
+            background-color: #c6088d;
+            color: white;
+            box-shadow: 10px 10px 10px rgb(232, 76, 154);
+        }
+
+        .b1:hover {
+            background-color: #238fdd;
+
+        }
+        .third-class{
+            height:200px;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-left:50px;
+            text-align: center;
+        }
+        .ss{
+            margin-right:120px;
+            height: 100px;
+            width: 100px;
+            
+        }
+        #t1:hover{
+            transform: rotate(360deg);
+            transition:all 3s ease-out;
+        }
+        #t2:hover{
+            transform: rotate(360deg);
+            transition:all 3s ease-out;
+        }
+        #t3:hover{
+            transform: rotate(360deg);
+            transition:all 3s ease-out;
+        }
+        #t4:hover{
+            transform: rotate(360deg);
+            transition:all 3s ease-out;
+        }
+        .ss:hover{
+            transform: scale(0.9);
+        }
+        
+        .fourth-class{
+            background-color: #6493da;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navdiv">
+            <div class="logo">
+                MegaOne
+            </div>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Our Work</li>
+            <li>Clients</li>
+            <li>Contact</li>
+            <li class="li">Get A Quote</li>
+        </ul>
+    </div>
+    <div class="first-class">
+        <div class="inside-class">
+            <div class="push">
+                <img src="push.png" alt="" height="250px">
+                <img src="firstdiv.png" alt="" class="img1" height="300px">
+
+                <p style="font-size: 50px;" class="pre1"> Creative Digital Agency</p>
+            </div>
+        </div>
+    </div>
+    <div class="second-class">
+        <div class="text">
+            <h6 style="margin-bottom: 20px;font-size: 20px;">We are megaone company</h6>
+            <h1 style="margin-bottom: 30px;">We are making design <br>better for everyone</h1>
+            <p style="margin-bottom: 30px;">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+                are going to use a passage of Lorem Ipsum.</p>
+            <button class="b1">Learn More</button>
+        </div>
+        <div class="img-boy">
+            <img src="seconddiv.png" alt="" height="300px">
+        </div>
+    </div>
+    <div class="third-class">
+        <div class="ss">
+            <img src="thirddivimg1.png" id="t1" alt="" height="100px" width="100px">
+            <h5>World leader in consulting and finance</h5>
+        </div>
+        <div class="ss">
+            <img src="thirddivimg2.png"  id="t2" alt="" height="100px" width="100px">
+            <h5>A focused team with a specialized skill</h5>
+        </div>
+        <div class="ss">
+            <img src="thirddivimg3.png"  id="t3" alt="" height="100px" width="100px">
+            <h5>Trusted and professional advisors for you</h5>
+        </div>
+        <div class="ss">
+            <img src="thirddivimg4.png"  id="t4" alt="" height="100px" width="100px">
+            <h5>Experience to give you a better results</h5>
+        </div>
+    </div>
+    <div class="fourth-class">
+        <img src="fourthdivimg1.png" alt="">
+    </div>
+
+
+</body>
+
+</html>
