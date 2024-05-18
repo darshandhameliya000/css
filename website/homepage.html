@@ -5,211 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agency | MegaOne HTML5</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        .navbar {
-            background-image: linear-gradient(rgb(157, 194, 220), rgb(79, 20, 230));
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            height: 8svh;
-            align-items: center;
-
-        }
-
-        .logo {
-            margin-left: 10px;
-            text-shadow: 5px 5px 30px black;
-        }
-
-        ul {
-            display: flex;
-            gap: 2vw;
-            list-style: none;
-        }
-
-        ul li {
-            padding: 10px;
-            margin-right: 20px;
-            text-shadow: 5px 5px 30px black;
-        }
-
-        .logo:hover,
-        ul li:hover {
-            color: black;
-        }
-
-
-        .push {
-            display: flex;
-            margin-top: 200px;
-            transition: all 2s linear;
-        }
-
-        .push:hover {
-            transform: translate(90px, 0px);
-        }
-
-        .span{
-            margin-top: 300px;
-            margin-left:100px;
-           
-        }
-
-
-        .Creative{
-            color: rgb(199, 35, 63);
-            font-size: 60px;
-        }
-        .Digital{
-            color: white;
-            font-size: 60px;
-        }
-        .lorem{
-            margin-right: 200px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            color: white;
-        }
-        .b2{
-            border-radius: 20px;
-            padding: 5px 10px;
-            background-color: #c6088d;
-            color: white;
-        }
-
-        .li {
-            border: 2px solid;
-            padding: 5px;
-            border-radius: 20px;
-
-        }
-
-        .li:hover {
-            background-image: linear-gradient(red, pink);
-            background-color: white;
-            color: black;
-        }
-
-        .first-class {
-
-            width: 98.7vw;
-            height: 95vh;
-            background-image: linear-gradient(to right, rgb(133, 133, 237), rgb(14, 107, 189));
-        }
-
-        .inside-class {
-
-            display: flex;
-            justify-content: center;
-            /* align-items: center; */
-        }
-
-
-        .pre1 {
-            margin-left: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 5px 5px 40px black;
-        }
-
-        .btn1 {
-            background-color: #1483f9;
-            border-radius: 10px;
-        }
-
-        .second-class {
-            display: flex;
-            margin-top: 50px;
-            margin-left: 90px;
-            margin-top: 50px;
-            text-shadow: 5px 5px 30px black;
-
-        }
-
-        .b1 {
-            border-radius: 20px;
-            padding: 5px 10px;
-            background-color: #c6088d;
-            color: white;
-            box-shadow: 10px 10px 10px rgb(232, 76, 154);
-        }
-
-        .b1:hover ,.b2:hover{
-            background-color: #238fdd;
-
-        }
-
-        .third-class {
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-            margin-left: 50px;
-            text-align: center;
-        }
-
-        .ss {
-            margin-right: 120px;
-            height: 100px;
-            width: 100px;
-
-        }
-
-        #t1:hover {
-            transform: rotate(360deg);
-            transition: all 3s ease-out;
-        }
-
-        #t2:hover {
-            transform: rotate(360deg);
-            transition: all 3s ease-out;
-        }
-
-        #t3:hover {
-            transform: rotate(360deg);
-            transition: all 3s ease-out;
-        }
-
-        #t4:hover {
-            transform: rotate(360deg);
-            transition: all 3s ease-out;
-        }
-
-        .ss:hover {
-            transform: scale(0.9);
-        }
-
-        .fourth-class {
-            background-color: #6493da;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navdiv">
-            <div class="logo">
-                MegaOne
-            </div>
-        </div>
-        <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Our Work</li>
-            <li>Clients</li>
-            <li>Contact</li>
-            <li class="li">Get A Quote</li>
-        </ul>
-    </div>
+
     <div class="first-class">
+        <div class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <div class="i"><i class="fa-solid fa-bars-staggered">
+                            <h6 class="megaone">MegaOne</h6>
+                        </i></div>
+                </div>
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Our Work</li>
+                <li>Clients</li>
+                <li>Contact</li>
+                <li class="li">Get A Quote</li>
+            </ul>
+        </div>
         <div class="inside-class">
             <div class="push">
                 <img src="push.png" alt="" height="250px">
@@ -219,7 +38,10 @@
             <div class="span">
                 <span class="Creative"> <b>Creative</b></span><br>
                 <span class="Digital"><b> Digital Agency</b></span>
-                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam eligendi explicabo atque dolores aliquam quod corrupti voluptatem ex harum beatae perspiciatis quo nisi! Mollitia quaerat veritatis facere ipsa maxime cupiditate rerum saepe consectetur nihil laboriosam.</p>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aperiam eligendi
+                    explicabo atque dolores aliquam quod corrupti voluptatem ex harum beatae perspiciatis quo nisi!
+                    Mollitia quaerat veritatis facere ipsa maxime cupiditate rerum saepe consectetur nihil laboriosam.
+                </p>
                 <button class="b2">Learn More</button>
             </div>
         </div>
@@ -257,9 +79,69 @@
         </div>
     </div>
     <div class="fourth-class">
-        <img src="fourthdivimg1.png" alt="">
+        <div class="read">
+            <img src="fourthdivimg1.png" alt="" height="380px">
+        </div>
+        <div class="read1">
+            <h6 class="h6">We are megaone company</h6>
+            <span class="e">We have done some </span><br>
+            <span class="e1">great idea.</span>
+            <p class="pa">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected.</p>
+            <div class="triputi">
+                <div class="i1">
+                    <img src="fourthdivimg2.png" alt="" height="50px"><br>
+                    <h2>500+</h2>
+                    <h5>Happy Clients</h5>
+                </div>
+                <div class="i2">
+                    <img src="fourthdivimg2.png" alt="" height="50px"><br>
+                    <h2>1074+</h2>
+                    <h5>Lines Of Code</h5>
+                </div>
+                <div class="i3">
+                    <img src="fourthdivimg3.png" alt="" height="50px"><br>
+                    <h2>600+</h2>
+                    <h5>Project Completed</h5>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <div class="fifth-class">
+        <div class="write">
+            <h5 class="write1">We are megaone company</h5>
+            <span class="write2">We have some ideal</span><br>
+            <span class="write3">talented staff</span>
+            <p>There are many variations of passages of Lorem Ipsum available, but the <br>majority have suffered
+                alteration in some form, by injected.</p>
+        </div>
+        <div class="three">
+            <div class="fifthimg1">
+                <img src="fifthdivimg1.png" alt="" id="alt" height="250px">
+                <h2>David Joe</h2>
+                <h5 id="Director">Director</h5>
+                <i class="fa-brands fa-facebook" id="i1"></i>
+                <i class="fa-brands fa-linkedin-in" id="i2"></i>
+                <i class="fa-brands fa-twitter" id="i3"></i>
+            </div>
+            <div class="fifthimg2">
+                <img src="fifthdivimg2.png" alt="" id="alt" height="250px">
+                <h2>Natalie Roy</h2>
+                <h5 id="Director">Director</h5>
+                <i class="fa-brands fa-facebook" id="i1"></i>
+                <i class="fa-brands fa-linkedin-in" id="i2"></i>
+                <i class="fa-brands fa-twitter" id="i3"></i>
+            </div>
+            <div class="fifthimg3">
+                <img src="fifthdivimg3.png" alt="" id="alt" height="250px">
+                <h2>Jhon Wok</h2>
+                <h5 id="Director">Director</h5>
+                <i class="fa-brands fa-facebook" id="i1"></i>
+                <i class="fa-brands fa-linkedin-in" id="i2"></i>
+                <i class="fa-brands fa-twitter" id="i3"></i>
+            </div>
+        </div>
+    </div>
 
 </body>
 
