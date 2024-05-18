@@ -10,7 +10,6 @@
     justify-content: space-between;
     height: 8svh;
     align-items: center;
-
 }
 
 .logo {
@@ -92,7 +91,7 @@ ul li:hover {
 
     width: 98.7vw;
     height: 100vh;
-    background-image: linear-gradient(to right, rgb(133, 133, 237), rgb(14, 107, 189));
+    background: linear-gradient(to right, #3264f5 2%, #7004bc 82%)
 }
 
 .inside-class {
@@ -101,8 +100,6 @@ ul li:hover {
     justify-content: center;
     /* align-items: center; */
 }
-
-
 .pre1 {
     margin-left: 60px;
     display: flex;
@@ -180,7 +177,7 @@ ul li:hover {
 
 .fourth-class {
 
-    background-image: linear-gradient(to left,rgb(6, 55, 169),rgb(84, 84, 228));
+    background: linear-gradient(to right, #237afe 2%, #03a9f5 82%);
     width: 100%;
     height:400px;
     display: flex;
@@ -266,7 +263,22 @@ ul li:hover {
 .fifthimg1{
     text-align: center;
     margin-right: 20px;
-    
+}
+.asset13:hover{
+    background-image: url(asset\ 13.png);
+    background-repeat: no-repeat;
+    color: white;
+    /* z-index: 2; */
+}
+.asset14:hover{
+    background-image: url(asset\ 15.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+.asset15:hover{
+    background-image: url(asset\ 17.png);
+    background-repeat: no-repeat;
+    color: white;
 }
 #alt{
     transition: all 1s linear;
@@ -296,4 +308,26 @@ ul li:hover {
 #i3{
     margin-right: 40px;
     margin-top:20px;
+}
+.six-class{
+    background-color: #f8f9fa !important;
+    display: flex;
+    height: 400px;
+    margin: auto;
+    padding: 70px;
+}
+.left-text{
+    margin-left: 100px;
+}
+.right-img{
+    margin-right: 20px;
+}
+#b1{
+    margin-top: 35px;
+}
+#parag{
+    margin-top:20px;
+}
+#write1{
+    margin-top: 80px;
 }
