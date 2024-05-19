@@ -121,6 +121,9 @@ ul li:hover {
     text-shadow: 5px 5px 30px black;
 
 }
+.change{
+    color: rgb(6, 189, 189);
+}
 
 .b1 {
     border-radius: 20px;
@@ -316,6 +319,9 @@ ul li:hover {
     margin: auto;
     padding: 70px;
 }
+.change1{
+    color:rgb(231, 46, 172);
+}
 .left-text{
     margin-left: 100px;
 }
@@ -331,3 +337,47 @@ ul li:hover {
 #write1{
     margin-top: 80px;
 }
+/* .bottom{
+    display: flex;
+    justify-content: center;
+}
+.item1{
+    border: 1px solid rgb(225, 20, 20);
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 100px;
+    width: 400px;
+   
+
+}
+.item2{
+    border: 1px solid rgb(205, 35, 35);
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 100px;
+    width: 400px;
+}
+.item3{
+    border: 1px solid rgb(221, 40, 40);
+    border-radius: 20px;
+    margin-left: 15px;
+    height: 100px;
+    width: 400px;
+}
+
+.bottom img{
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+} */
+.nineth-class{
+    background: linear-gradient(to right, #237afe 2%, #03a9f5 82%);
+    height: 200px;
+    width: 100%;
+    margin-top:50px;
+}
+.marquee{
+    margin: 0px 25%;
+    margin-top:60px;
+}
+ 
