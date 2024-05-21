@@ -54,7 +54,14 @@
     margin-left: 40px;
     text-shadow: 5px 5px 30px black;
 }
-
+#i{
+    margin-top:-40px;
+}
+.megaone{
+    margin-top: -30px;
+    margin-left:100px;
+    font-size: 20px;
+}
 ul {
     display: flex;
     gap: 2vw;
@@ -410,9 +417,11 @@ ul li:hover {
 }
 
 .eight-class {
-    height: 1500px;
+    height: 1350px;
+    margin-left:150px;
     padding-right: 150px;
     margin-top: 50px;
+   
 }
 
 .remove {
@@ -426,7 +435,7 @@ ul li:hover {
 }
 
 .gitem1 {
-    height: 700px;
+    height: 600px;
     width: 280px;
 }
 
@@ -463,19 +472,19 @@ ul li:hover {
 }
 
 .gitem2 {
-    height: 350px;
+    height: 300px;
     width: 280px;
 }
 
 .gitem3 {
     margin-top: -4px;
-    height: 350px;
+    height: 300px;
     width: 280px;
 }
 
 .gitem4 {
     margin-top: 4px;
-    height: 700px;
+    height: 600px;
     width: 500px;
 }
 
@@ -485,12 +494,12 @@ ul li:hover {
 }
 
 .gitem5 {
-    height: 700px;
+    height: 600px;
     width: 560px;
 }
 
 .gitem61 {
-    height: 350px;
+    height: 300px;
     width: 500px;
 }
 
@@ -499,12 +508,12 @@ ul li:hover {
 }
 
 .gitem621 {
-    height: 350px;
+    height: 300px;
     width: 250px;
 }
 
 .gitem622 {
-    height: 350px;
+    height: 300px;
     width: 250px;
 }
 
@@ -621,14 +630,6 @@ ul li:hover {
     top: 0px;
     right: 0px;
 } */
-
-
-
-
-
-
-
-
 
 
 
