@@ -89,7 +89,7 @@ ul li:hover {
 
 .push {
     display: flex;
-    margin-top: 40px;
+    margin-top: 80px;
     transition: all 2s linear;
 }
 
@@ -98,7 +98,7 @@ ul li:hover {
 }
 
 .span {
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 100px;
 
 }
@@ -729,7 +729,7 @@ ul li:hover {
 }
 
 .map {
-    width: 60%;
+    width: 80%;
     height: 600px;
     margin-top: -200px;
 }
@@ -743,7 +743,7 @@ ul li:hover {
 
 .Fourteen1 {
     height: 100%;
-    width: 35%;
+    width: 30%;
     background-color: white;
 }
 
@@ -774,12 +774,13 @@ input::placeholder {
     padding: 20px;
 }
 
-.i3m {
+.placeholder {
     width: 280px;
     height: 175px;
     margin-top: 130px;
     margin-left: 10px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .inside-Fourteen1 {
