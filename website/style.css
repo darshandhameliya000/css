@@ -430,15 +430,54 @@ ul li:hover {
     margin-top: 50px;
 
 }
-
 .remove {
     margin-left: 350px;
     margin-bottom: 20px;
-}
+   
 
+}
 .inside-eight-class1 {
     display: flex;
     margin-left: 100px;
+}
+.overlay1{
+    position: relative;
+    overflow: hidden;
+}
+.overlay2{
+    position: relative;
+    overflow: hidden;
+}
+.overlay3{
+    position: relative;
+    overflow: hidden;
+}
+.overlay1 .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(46, 162, 224, 0.906);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:  all 0.3s linear 0s;
+}
+
+.overlay1:hover .overlay{
+    opacity: 1;
+}
+
+.overlay1 .overlay span{
+    color: white;
+    font-size: 1.4rem;
+}
+
+#fa-solid-fa-plus{
+    font-size: 60px;
 }
 
 .gitem1 {
@@ -446,7 +485,7 @@ ul li:hover {
     width: 280px;
 }
 
-.gitem1:hover {
+/* .gitem1:hover {
     transform: scale(1.01);
 }
 
@@ -476,9 +515,10 @@ ul li:hover {
 
 .gitem622:hover {
     transform: scale(1.01);
-}
+} */
 
 .gitem2 {
+
     height: 300px;
     width: 280px;
 }
@@ -490,7 +530,6 @@ ul li:hover {
 }
 
 .gitem4 {
-    margin-top: 4px;
     height: 600px;
     width: 500px;
 }
@@ -761,7 +800,7 @@ ul li:hover {
     margin-left:-60px;
 }
 
-.i3 {
+.i31 {
     margin-left:-60px;
     width: 280px;
     height: 40px;
