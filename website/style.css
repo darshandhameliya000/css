@@ -336,20 +336,20 @@ ul li:hover {
 }
 
 .asset13:hover {
-    background-image: url(asset\ 13.png);
+    background-image: url(asset/asset\ 13.png);
     background-repeat: no-repeat;
     color: white;
     /* z-index: 2; */
 }
 
 .asset14:hover {
-    background-image: url(asset\ 15.png);
+    background-image: url(asset/asset\ 15.png);
     background-repeat: no-repeat;
     color: white;
 }
 
 .asset15:hover {
-    background-image: url(asset\ 17.png);
+    background-image: url(asset/asset\ 17.png);
     background-repeat: no-repeat;
     color: white;
 }
@@ -484,38 +484,6 @@ ul li:hover {
     height: 600px;
     width: 280px;
 }
-
-/* .gitem1:hover {
-    transform: scale(1.01);
-}
-
-.gitem2:hover {
-    transform: scale(1.01);
-}
-
-.gitem3:hover {
-    transform: scale(1.01);
-}
-
-.gitem4:hover {
-    transform: scale(1.01);
-}
-
-.gitem5:hover {
-    transform: scale(1.01);
-}
-
-.gitem61:hover {
-    transform: scale(1.01);
-}
-
-.gitem621:hover {
-    transform: scale(1.01);
-}
-
-.gitem622:hover {
-    transform: scale(1.01);
-} */
 
 .gitem2 {
 
@@ -949,3 +917,57 @@ input::placeholder {
     font-size: 20px;
     margin-left: 150px;
 }
+
+/* 
+.lds-ripple,
+.lds-ripple div {
+  box-sizing: border-box;
+}
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid currentColor;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  4.9% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+  }
+  5% {
+    top: 36px;
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+  }
+}
+
+ */
