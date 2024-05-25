@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 /* .color-change-4x {
@@ -47,7 +47,7 @@
     align-items: center;
     position: fixed;
     z-index: 2;
-    width: 100%;    
+    width: 100%;
 }
 
 .logo {
@@ -65,7 +65,8 @@
     margin-left: 100px;
     font-size: 20px;
 }
-.megaone:hover{
+
+.megaone:hover {
     color: black;
 }
 
@@ -156,7 +157,8 @@ ul li:hover {
     justify-content: center;
 
 }
-.margin-top{
+
+.margin-top {
     display: flex;
     justify-content: center;
     margin-left: 150px;
@@ -185,11 +187,13 @@ ul li:hover {
     text-shadow: 5px 5px 30px black;
 
 }
-.text{
+
+.text {
     width: 500px;
     height: 350px;
     margin-left: 100px;
 }
+
 .change {
     color: rgb(6, 189, 189);
 }
@@ -272,20 +276,24 @@ ul li:hover {
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
-@keyframes read{
-    from{
-        transform:translate(-1000px);
+
+@keyframes read {
+    from {
+        transform: translate(-1000px);
     }
-    to{
-        transform:translate(50px);
+
+    to {
+        transform: translate(50px);
     }
 }
-@keyframes read1{
-    from{
-        transform:translate(1200px);
+
+@keyframes read1 {
+    from {
+        transform: translate(1200px);
     }
-    to{
-        transform:translate(100px);
+
+    to {
+        transform: translate(100px);
     }
 }
 
@@ -467,53 +475,59 @@ ul li:hover {
     margin-top: 50px;
 
 }
+
 .remove {
     margin-left: 350px;
     margin-bottom: 20px;
-   
+
 
 }
+
 .inside-eight-class1 {
     display: flex;
     margin-left: 100px;
 }
-.overlay1{
+
+.overlay1 {
     position: relative;
     overflow: hidden;
 }
-.overlay2{
+
+.overlay2 {
     position: relative;
     overflow: hidden;
 }
-.overlay3{
+
+.overlay3 {
     position: relative;
     overflow: hidden;
 }
-.overlay1 .overlay{
+
+.overlay1 .overlay {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color:rgba(46, 162, 224, 0.906);
+    background-color: rgba(46, 162, 224, 0.906);
     opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition:  all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
 }
 
-.overlay1:hover .overlay{
+.overlay1:hover .overlay {
     opacity: 1;
 }
 
-.overlay1 .overlay span{
+.overlay1 .overlay span {
     color: white;
     font-size: 1.4rem;
 }
 
-#fa-solid-fa-plus{
+#fa-solid-fa-plus {
     font-size: 60px;
 }
 
@@ -834,11 +848,11 @@ ul li:hover {
     font-weight: 500;
     font-family: montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 50px;
-    margin-left:-60px;
+    margin-left: -60px;
 }
 
 .i31 {
-    margin-left:-60px;
+    margin-left: -60px;
     width: 280px;
     height: 40px;
     margin-top: 20px;
@@ -860,7 +874,7 @@ input::placeholder {
 }
 
 .inside-Fourteen1 {
-    margin-left:-60px;
+    margin-left: -60px;
     width: 100%;
     height: 80%;
     display: flex;
@@ -881,7 +895,7 @@ input::placeholder {
     height: 100%;
 }
 
-.Send-Message{
+.Send-Message {
     width: 550px;
     height: 50px;
     margin-top: 10px;
@@ -959,36 +973,42 @@ input::placeholder {
     margin-top: -30px;
     text-decoration: none;
 }
-.fifteen{
+
+.fifteen {
     width: 100%;
     height: 200px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: #f8f9fa !important;
 }
-.fifteen1{
+
+.fifteen1 {
     width: 600px;
     height: 100%;
     padding-top: 100px;
     margin-left: 40px;
-    
+
 }
-.fifteen2{
+
+.fifteen2 {
     width: 600px;
     height: 100%;
     padding-top: 100px;
 }
-#footer{
+
+#footer {
     margin-right: 30px;
     font-size: 20px;
 }
-.fifteen21{
+
+.fifteen21 {
     font-size: 20px;
     margin-left: 150px;
 }
-#last-arrow{
+
+#last-arrow {
     background-color: #643094;
-    border:2px solid;
+    border: 2px solid;
     height: 40px;
     width: 40px;
     margin-left: 95%;
@@ -997,10 +1017,22 @@ input::placeholder {
     z-index: 2;
     font-size: 30px;
 }
-#last-arrow:hover{
-    background-color: aqua;
-}
-#fa-circle-up{
-    font-size: 30px;
 
+#fa-arrow-up:hover {
+    background-color: aqua;
+    color: black;
 }
+
+#fa-arrow-up {
+    font-size: 30px;
+    margin-left: 96%;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    background-color: #830de4;
+    border-radius:100%;
+    padding:15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}   
