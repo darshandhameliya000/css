@@ -973,7 +973,7 @@ input::placeholder {
     font-size: 20px;
     margin-left: 150px;
 }
-#last-arrow{
+#fa-arrow-up{
     background-color: #643094;
     border:2px solid;
     height: 40px;
@@ -984,6 +984,6 @@ input::placeholder {
     z-index: 2;
     font-size: 30px;
 }
-#last-arrow:hover{
+#fa-arrow-up:hover{
     background-color: aqua;
 }
