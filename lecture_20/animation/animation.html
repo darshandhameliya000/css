@@ -9,8 +9,9 @@
         .container {
             border: 2px solid;
             background-color: bisque;
-            height:40vw;
-            display: flex;
+            height: 40vw;
+            display: grid;
+            grid-template-columns: repeat(2,auto);
         }
 
         .item1 {
@@ -22,6 +23,7 @@
             justify-content: end;
             width: 100%;
         }
+       
 
         .box1 {
             background-color: red;
@@ -31,11 +33,11 @@
             position: relative;
             animation-name: leftside;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: infinite;
             animation-delay: 1s;
             /* animation-direction: alternate; */
             /* animation-direction: alternate-reverse; */
-            /* animation-direction:reverse; */
+            /* animation-direction:reverse; */ 
             animation-direction: normal;
             /* animation-fill-mode: backwards; */
             animation-fill-mode: forwards;
@@ -46,10 +48,43 @@
             height: 100px;
             width: 100px;
             position: relative;
-
             animation-name: rightside;
             animation-duration: 2s;
-            animation-iteration-count: 2;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction:reverse; */
+            animation-direction: normal;
+            /* animation-fill-mode: backwards; */
+            animation-fill-mode: forwards;
+        }
+
+        .box3 {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name: bottomleft;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction:reverse; */
+            animation-direction: normal;
+            /* animation-fill-mode: backwards; */
+            animation-fill-mode: forwards;
+        }
+
+        .box4 {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name: bottomright;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
             animation-delay: 1s;
             /* animation-direction: alternate; */
             /* animation-direction: alternate-reverse; */
@@ -82,19 +117,30 @@
                 right: 93%;
             }
         }
-        @media(max-width:790px){
-            @keyframes rightside {
+        @keyframes bottomleft {
             from {
-                top: 0;
+                bottom: 0;
+                left: 0;
+            }
+
+            to {
+                bottom:50%;
+                left: 93%;
+            }
+        }
+        @keyframes bottomright {
+            from {
+                bottom:  0;
                 right: 0;
             }
 
             to {
                 top: 50%;
-                right: -40%;
+                right: 93%;
             }
         }
-        }
+
+        
     </style>
 </head>
 
@@ -105,6 +151,12 @@
         </div>
         <div class="item2">
             <div class="box2">box2</div>
+        </div>
+        <div class="item3">
+            <div class="box3">box1</div>
+        </div>
+        <div class="item4">
+            <div class="box4">box2</div>
         </div>
     </div>
 </body>
