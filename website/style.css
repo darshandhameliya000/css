@@ -978,7 +978,10 @@ input::placeholder {
     font-size: 20px;
     margin-left: 150px;
 }
+
 #fa-arrow-up{
+    right: 20px;
+    left: 0;
     background-color: #643094;
     border:2px solid;
     height: 40px;
